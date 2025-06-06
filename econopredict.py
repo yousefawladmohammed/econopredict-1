@@ -293,12 +293,12 @@ if st.sidebar.button("📥 " + t['download_report']):
         )
     os.remove(filename)
 
-# تذييل الصفحة
+# Footer
 st.markdown("---")
 st.markdown("""
 <div class="footer">
-<strong>EconoPredict</strong> - نظام متقدم للتنبؤ الاقتصادي<br>
-    تم تطويره بواسطة: يوسف اولاد محمد<br>
-    © 2023 جميع الحقوق محفوظة | الإصدار 2.1
+    <strong>EconoPredict</strong> - Advanced economic forecasting system<br>
+    Developed by: yousef awladmohammed<br>
+    © 2023 All rights reserved | Version 2.1
 </div>
 """, unsafe_allow_html=True)
